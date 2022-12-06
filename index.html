@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversions</title>
+    <script src="script.js"></script>
+    <style>
+        li{
+            margin: 10px;
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+        }
+        input{
+            margin: 30px 0 5px 30px;
+        }
+        button{
+            margin-left: 152px;
+        }
+        p{
+            margin-left: 30px;
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Home</h1>
+    <ul>
+        <li><a onclick="D2B()" href="#">Decimal to Binary</a></li>
+        <li><a onclick="B2D()" href="#">Binary to Decimal</a></li>
+        <li><a onclick="D2H()" href="#">Decimal to Hexadecimal</a></li>
+        <li><a onclick="H2D()" href="#">Hexadecimal to Decimal</a></li>
+        <li><a onclick="D2O()" href="#">Decimal to Octadecimal</a></li>
+        <li><a onclick="O2D()" href="#">Octadecimal to Decimal</a></li>
+        <!-- <li><a href="#">Kelvin to Centigrade</a></li>
+        <li><a href="#">Kelvin to Farenheit</a></li>
+        <li><a href="#">Farenheit to Centigrade</a></li>
+        <li><a href="#">Farenheit to Kelvin</a></li>
+        <li><a href="#">Centigrade to kelvin</a></li>
+        <li><a href="#">Centigrade to Farenheit</a></li> -->
+    </ul>
+    <input type="text" id="input" style="display:none" placeholder="text">
+    <button type="button" id="D2B" onclick="Decimal_to_Binary()" style="display:none">Enter</button>
+    <button type="button" id="B2D" onclick="Binary_to_Decimal()" style="display:none">Enter</button>
+    <button type="button" id="D2H" onclick="Decimal_to_Hex()" style="display:none">Enter</button>
+    <button type="button" id="H2D" onclick="Hex_to_Decimal()" style="display:none">Enter</button>
+    <button type="button" id="D2O" onclick="Decimal_to_Oct()" style="display:none">Enter</button>
+    <button type="button" id="O2D" onclick="Oct_to_Decimal()" style="display:none">Enter</button>
+    <p id="demo"></p>
+</body>
+</html>
